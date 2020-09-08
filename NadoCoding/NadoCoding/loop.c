@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //이것은 반복문 실습입니다.
-int main(void)
+int main_loof(void)
 {
 	//
 	/*printf("Hello World\n");
