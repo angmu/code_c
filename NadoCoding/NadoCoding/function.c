@@ -26,19 +26,19 @@ int main_function(void)
 	//printf("num은 %d 입니다\n", num);//2
 	p(num);
 
-	num+ = 3;
+	num = num + 3;
 	//printf("num은 %d 입니다\n", num);//5
 	p(num);
 
-	num - = 1;
+	num = num - 1;
 	//printf("num은 %d 입니다\n", num);//4
 	p(num);
 
-	num * = 3;
+	num  = num * 3;
 	//printf("num은 %d 입니다\n", num);//12
 	p(num);
 
-	num / = 6;
+	num  = num / 6;
 	//printf("num은 %d 입니다\n", num);//2
 	p(num);
 

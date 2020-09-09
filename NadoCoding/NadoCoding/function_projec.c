@@ -8,14 +8,14 @@ void success();
 void fail();
 
 
-int main(void)
+int main_proj(void)
 {
 	//문이 5개가 있고 각 문마다 점점 어려운 수식 퀴즈가 출제(랜덤)
 	//맞치면 통과 틀리면 실패
-	
+
 	srand(time(NULL));
 	int count = 0;
-	for (int i = 1; i <= 5; i++) 
+	for (int i = 1; i <= 5; i++)
 	{
 		//x+y=?
 		int num1 = getRandomNumber(i);
@@ -25,7 +25,7 @@ int main(void)
 
 		int answer = -1;
 		scanf_s("%d", &answer);
-		if (answer == -1) 
+		if (answer == -1)
 		{
 			printf("프로그램을 종료합니다\n");
 			//break;
@@ -37,14 +37,14 @@ int main(void)
 			success();
 			count++;
 		}
-		else 
+		else
 		{
 			//실패
 			fail();
 		}
 	}
 	printf("당신은 5개의 비밀번호 중 %d개를 맞췄습니다\n", count);
-	
+
 	return 0;
 }
 
@@ -62,7 +62,7 @@ void showQuestion(int level, int num1, int num2)
 
 }
 
-void success() 
+void success()
 {
 	printf("정답입니다\n\n\n");
 }

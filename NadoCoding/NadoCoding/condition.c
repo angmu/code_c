@@ -145,7 +145,7 @@ int main_condition(void)
 
 	//up and down
 	srand(time(NULL));
-	int num = rand() % 100 + 1// 1~100까지의 숫자
+	int num = rand() % 100 + 1;// 1~100까지의 숫자
 	printf("숫자: %d\n", num);
 	int answer = 0;//정답
 	int chance = 5;//기회
@@ -166,7 +166,7 @@ int main_condition(void)
 			chance--;
 
 		}
-		else if {answer==num}
+		else if (answer==num)
 		{
 			printf("정답입니다\n\n");
 			break;
@@ -176,7 +176,7 @@ int main_condition(void)
 			printf("알수없는 오류가 발생했어요\n\n");
 		}
 		if (chance == 0) {
-			printf("모든 기회를 소진했습니다. 아쉽게 실패했습니다.")
+			printf("모든 기회를 소진했습니다. 아쉽게 실패했습니다.");
 				break;
 		}
 	}
