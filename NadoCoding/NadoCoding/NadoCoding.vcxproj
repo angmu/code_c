@@ -145,7 +145,13 @@
     <ClCompile Include="function.c" />
     <ClCompile Include="function_projec.c" />
     <ClCompile Include="loop.c" />
+    <ClCompile Include="m_array.c" />
+    <ClCompile Include="m_array_project.c" />
+    <ClCompile Include="pointer.c" />
+    <ClCompile Include="pointer_project.c" />
     <ClCompile Include="printfscanf.c" />
+    <ClCompile Include="struct.c" />
+    <ClCompile Include="struct_project.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
